@@ -92,23 +92,23 @@ const scommand = JSON.parse(fs.readFileSync('./database/scommand.json'))
 const tictactoe = JSON.parse(fs.readFileSync("./database/tictactoe.json"))
 const ntilink = JSON.parse(fs.readFileSync("./database/antilink.json"))
 //=================================================//
-banChats = true // Self and Public ( HW MODS WA )
+banChats = true // Self and Public ( Rafi aji )
 bugc = true // Antibug Gc ( HW MODS WA & HAIKALMODS )
-antitrol = true // Antifake Trolli ( HW MODS WA )
-offline = false // Offline and Online ( HAIKAL )
+antitrol = true // Antifake Trolli ( Rafi Aji )
+offline = false // Offline and Online ( Rafi )
 const exif = new Exif()
-multi = true // Multi Prefix ( HW MODS WA )
-antitags = true // Antitag ( HW MODS WA )
-readG = true // Auto Read Group ( HW MODS WA )
-readP = false // Auto Read Private ( HW MODS WA )
-winawal = 1 // Win Tictactoe ( HW MODS WA )
+multi = true // Multi Prefix (Rafi Aji )
+antitags = true // Antitag ( Rafi Aji )
+readG = true // Auto Read Group ( Rafi Aji )
+readP = false // Auto Read Private ( Rafi Aji )
+winawal = 1 // Win Tictactoe ( Rafi Aji )
 loseawal = 1 // Lose Tictactoe ( HW MODS WA )
-memberwin = 1 // Win ( HW MODS WA )
-memberlose = 1 // Lose ( HW MODS WA )
+memberwin = 1 // Win ( Rafi Aji )
+memberlose = 1 // Lose ( Rafi Aji )
 pref = '?' // Prefix ( HW MODS WA )
 fake1 = '©[XM]-[XHIRO MHONSHINE] ✌️'
-targetpc = '6285788734756' // Fitnah Target ( HAIKAL )
-owner = '6285788734756' // Numbers Owner ( HW MODS WA )
+targetpc = '6285788734756' // Fitnah Target ( Rafi Aji )
+owner = '62882007331744' // Numbers Owner ( Rafi Aji )
 ownerNumbers = ["6285788734756@s.whatsapp.net","6285788734756@s.whatsapp.net","6285788734756@s.whatsapp.net"]
 linkcom = ".com" // Anti Link ( HW MODS WA )
 linkid = ".id" // Anti Link ( HW MODS WA )
@@ -118,14 +118,14 @@ linkhttp = "http" // Anti Link ( HW MODS WA )
 linkwa = "://chat.whatsapp.com" // Anti Link Group Whatsapp ( HW MODS WA )
 deflt = "..........c.....com" // Default Link ( HW MODS WA )
 linknye = `${deflt}` // Anti Link ( HW MODS WA )
-fake = 'HW MODS WA' // Fake Text Reply / Name Bot ( HW MODS WA )
+fake = 'Rafi Aji' // Fake Text Reply / Name Bot ( HW MODS WA )
 a = '```' // Font Whatsapp ( HW MODS WA )
 bailver = '3.5.3' // Versi Baileys ( HW MODS WA )
 botver = '1.0.0' // Versi Bot ( HW MODS WA )
 numbernye = '0' // Whatsapp Numbers ( HAIKAL )
 waktu = '-' // Waktu Fiturs Online / Offline ( HAIKAL )
 alasan = '-' // Alasan Fiturs Online / Offline ( HAIKAL )
-ownerNumber = [`${owner}@s.whatsapp.net`] // Numbers Owner ( HAIKAL )
+ownerNumber = [`${owner}@s.whatsapp.net`] // Numbers Owner ( Rafi )
 const X = "❌" // Tictactoe ( HW MODS WA & Lolhuman )
 const O = "⭕️" // Tictactoe ( HW MODS WA & Lolhuman )
 const tunjuk = "👈" // Tictactoe ( HW MODS WA & Lolhuman )
@@ -568,7 +568,7 @@ if (budy.startsWith('Menu')){
 res = await Haikal.prepareMessageFromContent(from,{
 "listMessage": {
 "title": `\`\`\`Hi ${pushname} 👋 ${ucapanWaktu}.\`\`\``,
-"description": `❏HW MODS WA❏
+"description": `❏Rafi Botz❏
 ▬▭▬▭▬▭▬▭▬▬▭▬▭
 HELLO !!!
 ┏━━⊱
@@ -680,12 +680,12 @@ const keren = fs.readFileSync('media/keren.mp3')
                     }
     if (budy.startsWith('Apa')){
     if (isBan) return reply(mess.ban)
-const apa = fs.readFileSync('media/apa.mp3')
+const Anis = fs.readFileSync('media/apa.mp3')
                     Haikal.sendMessage(from, apa, audio, { mimetype: 'audio/mp4',  ptt: true, quoted: kal})
                     }
                     if (budy.startsWith('Apaan')){
                     if (isBan) return reply(mess.ban)
-const apaan = fs.readFileSync('media/apaan.mp3')
+const Andri = fs.readFileSync('media/apaan.mp3')
                     Haikal.sendMessage(from, apaan, audio, { mimetype: 'audio/mp4',  ptt: true, quoted: kal})
                     }                   
                     if (budy.startsWith('Hantam')){
